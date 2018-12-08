@@ -12,9 +12,9 @@ while not done:
     if grade == '':                          # 检测到输入为空
         done = True
     elif grade not in points:                # 未被识别的成绩
-        print("Unknown grade '{0}' being ignored".format(grade))
+        print("未知成绩 {0}".format(grade))
     else:
         num_courses += 1
         total_points += points[grade]
 if num_courses > 0:                        # 避免除以0
-    print('Your GPA is {0:.3}'.format(total_points / num_courses))
+    print('你的GPA： {0:.3}'.format(total_points / num_courses))

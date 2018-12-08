@@ -463,7 +463,7 @@ filter(lambda x: x > 5, [3, 4, 5, 6, 7])   # => [6, 7]
 [add_10(i) for i in [1, 2, 3]]  # => [11, 12, 13]
 [x for x in [3, 4, 5, 6, 7] if x > 5]   # => [6, 7]
 #endregion
-
+#region 扩展
 ####################################################
 ## 5. 类
 ####################################################
@@ -594,3 +594,4 @@ def say(say_please=False):
 
 print(say())  # Can you buy me a beer?
 print(say(say_please=True))  # Can you buy me a beer? Please! I am poor :(
+#endregion
